@@ -1,0 +1,23 @@
+{
+  "name": "personal-portfolio",
+  "version": "1.0.0",
+  "description": "My personal portfolio.",
+  "main": "server-personal-portfolio.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evantsmith/personal-portfolio.git"
+  },
+  "keywords": [
+    "Personal",
+    "Portfolio"
+  ],
+  "author": "Evan Smith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evantsmith/personal-portfolio/issues"
+  },
+  "homepage": "https://github.com/evantsmith/personal-portfolio#readme"
+}
