@@ -1,14 +1,61 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Evan Smith - Personal Portfolio</title>
-        <link rel="stylesheet" type="text/css" href="./personalportfolio.css">
-
+        <title>Personal Portfolio</title>
+        <script src="https://unpkg.com/vue"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        <link rel="stylesheet" href="/css/personal-portfolio-main.css">
     </head>
 
 
     <body>
-        <h1>My Personal Portfolio</h1>
+        <div id='app'>
+            <!--  Nav Bar -->
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+                <a class="navbar-brand" href="/">Developer Page</a>
+
+                <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/work">Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/about">About</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="navbar-brand float-right">Evan Smith</div>
+            </nav>
+            <!-- End Nav Bar -->
+            
+            <!-- Main Container -->
+            <div class='conatiner' id="main">
+
+                <!-- Optional Jumbotron -->
+                <div class="jumbotron">
+                    <div class="container">
+                        <h1 class="display-3 head1">Freelance Software Engineer based in Boulder, Colorado. Highly Skilled with the Design and Development of Websites</h1>
+                    </div>
+                </div>
+                <!-- End Jumbotron -->
+
+                <!-- Top Container -->
+                <div class='container-fluid justify-content-sm-center' id="top">
+                    <div class="col-sm-12 divBeach" >
+                         <img id="beach" src="http://getwallpapers.com/wallpaper/full/d/8/4/567632.jpg">
+                         <p id="internalText" >My name is Evan Smith and I recently completed a 12-week Full-Stack Web Development coding bootcamp. To learn more about me, click the 'About' tab at the top of the screen.</p>
+                    </div>
+                </div>
+                <!-- End Top Container -->
+            </div>
+            <!-- End Main Container -->
+        </div>
+        <!-- End Vue --> 
+
+        <!-- <h1>My Personal Portfolio</h1>
         <h2>Future Junior Web Software Developer</h2>
         <h3>Evan Smith</h3>
         <h4>Bio:</h4>
@@ -16,8 +63,21 @@
              </p>
          <div style="text-align: center" ><img src="./ProfilePicture.jpg" width = "200px"; length ="200px">
          <h5>Portfolio Link</h5>
-        <h6>Resume</h6>
+        <h6>Resume</h6> -->
     </body>
+
+    <!-- Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous">
+        </script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous">
+        </script>
+
+        <!-- Jquery -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+        <!-- Main JS -->
+        <script src="/js/personal-portfolio-main.js"></script> 
 </html>
 
 

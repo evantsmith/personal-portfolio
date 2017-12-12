@@ -1,17 +1,41 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 3.5rem;
+}
+
 h1 {
     text-align: center;
 }
-h2 {
-    text-align: center;
-}
-h3 {
-    text-align: center;
+#top {
+    height: 100%;
 }
 body {
-    background-color: deepskyblue;
+    background-color: rgb(52, 58, 63);
 }
 #selfie {
     pic-align: center;
+}
+#beach {
+    width: 100%;
+    height: 100%;
+
+}
+.divBeach {
+    height: 100%;
+}
+.head1 {
+    font-size: 4rem;
+}
+#internalText {
+
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    width: 75rem;
+    height: 35rem;
+    font-size: 4rem;
+    color: white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 
